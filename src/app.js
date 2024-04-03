@@ -66,7 +66,7 @@ function renderTomatoes() {
 function renderOnions() {
   //Trial 1 - Change the visibility of Onions based on state by manipulating the DOM
   let onions=document.getElementById("onion");
-  state.Onions ? onions.style.display = "block" : onions.style.dislay = "none";
+  state.Onions ? onions.style.display = "block" : onions.style.display = "none";
 }
 
 function renderLettuce() {
